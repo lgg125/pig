@@ -91,6 +91,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+		<dependency>
+            <artifactId>halo</artifactId>
+            <groupId>com.halo</groupId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <modules>
