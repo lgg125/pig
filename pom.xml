@@ -97,12 +97,13 @@
             <version>1.0</version>
         </dependency>
 		<dependency>
-			<artifactId>ligg</artifactId>
-			<groupId>com.ligg</groupId>
+			<artifactId>com.ligg</artifactId>
+			<groupId>sfdf</groupId>
 		</dependency>
 		<dependency>
 			<artifactId>org.springframework.boot</artifactId>
 			<groupId>liyy</groupId>
+			<version>1.0123</version>
 		</dependency>
     </dependencies>
 
