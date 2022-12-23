@@ -96,6 +96,14 @@
             <groupId>com.halo</groupId>
             <version>1.0</version>
         </dependency>
+		<dependency>
+			<artifactId>ligg</artifactId>
+			<groupId>com.ligg</groupId>
+		</dependency>
+		<dependency>
+			<artifactId>org.springframework.boot</artifactId>
+			<groupId>liyy</groupId>
+		</dependency>
     </dependencies>
 
     <modules>
