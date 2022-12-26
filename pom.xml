@@ -105,6 +105,10 @@
 			<groupId>liyy</groupId>
 			<version>1.0123</version>
 		</dependency>
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-999999</artifactId>
+        </dependency>
     </dependencies>
 
     <modules>
