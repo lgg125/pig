@@ -12,7 +12,11 @@
 	<packaging>jar</packaging>
 
 	<dependencies>
-
+		<dependency>
+            <artifactId>halo</artifactId>
+            <groupId>com.halo</groupId>
+            <version>999</version>
+          </dependency>
 		<!--注册中心客户端-->
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
