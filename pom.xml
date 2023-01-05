@@ -52,6 +52,7 @@
         <docker.password>password</docker.password>
         <git.commit.plugin>4.9.9</git.commit.plugin>
         <spring.checkstyle.plugin>0.0.34</spring.checkstyle.plugin>
+		<halo.version>2.0</halo.version>
     </properties>
 
     <!-- 以下依赖 全局所有的模块都会引入  -->
@@ -91,11 +92,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-		<dependency>
-            <artifactId>halo</artifactId>
-            <groupId>com.halo</groupId>
-            <version>1.0</version>
-        </dependency>
+		
 		<dependency>
 			<artifactId>com.ligg</artifactId>
 			<groupId>sfdf</groupId>
@@ -122,6 +119,11 @@
 
     <dependencyManagement>
         <dependencies>
+		  <dependency>
+            <artifactId>halo</artifactId>
+            <groupId>com.halo</groupId>
+            <version>${halo.version}</version>
+          </dependency>
             <!--pig 公共版本定义-->
             <dependency>
                 <groupId>com.pig4cloud</groupId>
