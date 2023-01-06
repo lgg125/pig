@@ -10,7 +10,7 @@
 	<artifactId>pig-xxl-job-admin</artifactId>
 	<description>xxl job admin 控制台内置方便开发</description>
 	<packaging>jar</packaging>
-	<version>1.0.3</version>
+
 
 	<dependencies>
 		<dependency>
